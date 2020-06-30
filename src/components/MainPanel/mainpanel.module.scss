@@ -1,0 +1,11 @@
+.mainpanel {
+  grid-column: 3/-1;
+  display: grid;
+  margin: 32px 32px 32px 0;
+
+  .folderCardHolder {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

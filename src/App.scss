@@ -1,0 +1,16 @@
+@import './styles/colors';
+@import './styles/mixins';
+
+.App {
+  background-color: $backgroundBlack;
+  text-align: center;
+  color: $textWhite;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 32px;
+
+  @include above('large') {
+    grid-template-columns: repeat(9, 1fr);
+  }
+}
