@@ -1,0 +1,38 @@
+.usageMeterContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.barContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+}
+
+.usedStorageMeter {
+  position: absolute;
+  top: 16px;
+  background-color: #2350c7;
+  height: 2px;
+  z-index: 1;
+}
+
+.storageMeter {
+  position: absolute;
+  top: 16px;
+  background-color: #c4c4c4;
+  height: 2px;
+  width: 100%;
+}
+
+.usedStorage {
+  font-size: 11px;
+}
+
+.remainingStorage {
+  font-size: 11px;
+}
